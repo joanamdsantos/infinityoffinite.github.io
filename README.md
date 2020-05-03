@@ -1,6 +1,4 @@
-# infinityoffinite.github.io
-
-## The Infinity Of The Finite Blog
+# The Infinity Of The Finite Blog
 
 Going from number to number, from everybody to everyone, from atom to the universe are paradoxical insights to appreciate.
 
@@ -8,4 +6,5 @@ Data science is a growing field of study that focuses on getting insights from d
 
 The Infinity of the Finite is a Blog about data science projects that move the edge of complexity for the improvement of the environment and society.
 
+https://joanamdsantos.github.io/infinityoffinite.github.io
 
