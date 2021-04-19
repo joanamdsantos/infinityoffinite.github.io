@@ -8,3 +8,6 @@ The Infinity of the Finite is a Blog about data science projects that move the e
 
 https://joanamdsantos.github.io/infinityoffinite.github.io
 
+You are welcome to be here!
+
+
