@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Cancer | AI</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./theme/css/main.css" />
+        <img src="https://i1.wp.com/cinefilosfrustrados.com/wp-content/uploads/2019/11/westernhemisphere_geos_2019246_lrg-e1574515436165.jpg?fit=1200%2C567&ssl=1" alt="">
+</head>
+<body>
+
+    <div class="navigation pure-menu pure-menu-horizontal">
+        <a href="./" class="pure-menu-heading  pure-menu-link">infinityoffinite.github.io</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"></li>
+            <li class="pure-menu-item pure-menu-selected"><a href="./category/ai.html" class="pure-menu-link">AI</a></li>
+            <li class="pure-menu-item"><a href="./category/one.html" class="pure-menu-link">One</a></li>
+        </ul>
+        
+    </div>
+
+
+<div class="page-container">
+    <div class="entry-content">
+        <div class="post-meta pure-g">
+            <div class="pure-u">
+                <a href="./category/ai.html"><img src="https://images.unsplash.com/photo-1545987796-200677ee1011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80 " class="post-avatar" alt="AI"></a>
+            </div>
+<div class="pure-u-3-4 meta-data">
+    <a href="./category/ai.html" class="category">AI</a><br />
+
+    <a class="author" href="./author/joana-martins-dos-santos.html">Joana Martins dos Santos</a>
+    &mdash; <abbr title="2021-04-29T00:00:00+01:00">29 04 2021</abbr>
+</div>        </div>
+    </div>
+
+    <div class="article-header-container">
+        <div class="background-image-container">
+
+            <div class="background-image-small">
+                <img src="'https://intelligencepharma.files.wordpress.com/2018/09/7848357_5e1c1a58-9c00-11e8-b34e-0411160e7743-1_1000x625.jpg'" alt="Cancer | AI">
+                <div class="title-container">
+                    <h1>Cancer | AI</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="entry-content">
+        <p>According to the World Health Organization (WHO), cancer is the second cause of death worldwide, with over 10 million deaths in 2020, or one in six deaths. 
+Common cancer types have cure rates that can be higher when detected early and treated with the current best practices. Early detection can reduce mortality if the cases are detected and treated early. 
+Screening programmes aim to identify patients with certain discrepancies suggestive of specific cancer or pre-cancer without developing any symptoms. These programmes are far more complex public health interventions than early diagnosis while being the most critical step in preventing cancer development.</p>
+<p>In the last decades, advances in technology have provided the collection and availability of considerable amounts of clinical data on cancer in the medical community. Most of the predictions and screening are made based on medical expertise and statistical modelling.
+Machine Learning (ML) has been used in cancer diagnosis, detection, and more recently in prognosis and prediction, as new ML and Artificial Intelligence (AI) models have been developed.<br>
+In this post, we will look at ML models that are being used to help the medical community and patients in the earlier detection and prognosis of cancer disease.</p>
+<h1>Cancer statistics</h1>
+<p><img alt="Technician preparing tissue to be stained and studied histologically in a laboratory (1950)" src="./img/art2/national-cancer-institute-VCLYhr-ZUEQ-unsplash.jpg">
+<em>A Technician preparing tissue to be stained and studied histologically in a laboratory (1950).</em>
+<em><a href="https://unsplash.com/photos/VCLYhr-ZUEQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_cntent=creditShareLink">Photo by National Cancer Institute on Unsplash</a></em></p>
+<p>According to experts in Cancer Biology:</p>
+<blockquote>
+<p>“Cancer is the end result of a process of accumulation of genetic and epigenetic alterations. A small fraction of these alterations is inherited and the remainder is due to either random errors made during DNA replication or to environmental factors” .</p>
+</blockquote>
+<p>WHO describes cancer as:</p>
+<blockquote>
+<p>“A large group of diseases that can start in almost any organ or tissue of the body when abnormal cells grow uncontrollably, going beyond their usual boundaries to invade adjoining parts of the body and/or spread to other organs”. </p>
+</blockquote>
+<p>The latter process corresponds to metastasizing.</p>
+<p><img alt="Metastatic Melanoma Cells. The ability of cancer cells to move and spread depends on actin-rich core structures such as the podosomes (yellow) shown here in melanoma cells." src="./img/art2/national-cancer-institute-sIqWYiNLiJU-unsplash.jpg">
+<em>Metastatic Melanoma Cells. The ability of cancer cells to move and spread depends on actin-rich core structures such as the podosomes (yellow) shown here in melanoma cells.</em>
+<em><a href="https://unsplash.com/photos/sIqWYiNLiJU?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditShareLink">Photo by National Cancer Institute on Unsplash</a></em></p>
+<p>The International Agency for Research on Cancer, published data from the <a href="https://gco.iarc.fr/today/data/factsheets/cancers/17-Non-melanoma-skin-cancer-fact-sheet.pdf">Globocan</a> with the number of new cancers and corresponding deaths that occurred in 2020. The most common cancers and associated deaths were:</p>
+<ul>
+<li><strong>Lung</strong> (2.21 million cases/ 1.80 million deaths)</li>
+<li><strong>Breast</strong> (2.26 million cases/ 685 000 deaths)</li>
+<li><strong>Colon and rectum</strong> (1.93 million cases/ 935 000 deaths)</li>
+<li><strong>Prostate</strong> (1.41 million cases/ 358 989 deaths (2018))</li>
+<li><strong>Skin cancer (non-melanoma)</strong>  (1.20 million cases/ 65 155 deaths(2018))</li>
+<li><strong>Stomach</strong> (1.09 million cases/ 769 000 deaths)</li>
+<li><strong>Liver</strong> (840 000 cases(2018)/ 830 000 deaths)</li>
+</ul>
+<p>Based on age, gender, cancer location, and implication, a detailed view of cancer statistics is also presented on the following chart.</p>
+<p><img alt="Detailed View on Cancer Statistics @Flckr" src="https://live.staticflickr.com/8237/8518347377_cf5d3f021d_h.jpg “Detailed View on Cancer Statistics”"></p>
+<p>We can see that the most common cancer in 2018 was lung cancer, while liver cancer was the deadliest in terms of annual new cases and deaths, followed by lung and stomach cancer deaths, with a majority of cases being males. Non-melanoma skin cancer is highly prevalent, with over a million cases per year, although annual deaths in 2018 were around 6% of the cases. </p>
+<h3>Early detection</h3>
+<p>The <a href="https://www.who.int/news-room/fact-sheets/detail/cancer">WHO</a> indicates two components for early detection:</p>
+<ul>
+<li>
+<p>Early diagnosis: cancer is more likely to respond to effective treatment and can result in a greater probability of surviving, less morbidity, and less expensive treatment. Programmes can be designed to reduce delays in, and barriers to, care, allowing patients to access treatment in a timely manner.</p>
+</li>
+<li>
+<p>Screening: Screening aims to identify individuals with abnormalities suggestive of a specific cancer or pre-cancer who have not developed any symptoms and refer them promptly for diagnosis and treatment. In general, a screening programme is a far more complex public health intervention compared to early diagnosis.</p>
+</li>
+</ul>
+<p>Examples of screening methods are:</p>
+<ul>
+<li>Visual Inspection with Acetic Acid (VIA) for cervical cancer in low-income settings;</li>
+<li>HPV testing for cervical cancer;</li>
+<li>PAP cytology test for cervical cancer in middle- and high-income settings; and</li>
+<li>mammography screening for breast cancer in settings with strong or relatively strong health systems.</li>
+</ul>
+<h3>Treatment</h3>
+<p>Having a correct cancer diagnosis is the first step for adequate and effective treatment since every type of cancer needs specific care. The treatment regimen may involve one or more modalities, including surgery, radiotherapy, and chemotherapy. </p>
+<p>The primary goal is to cure cancer or prolong the patient’s life, giving the best quality of life, which can be achieved with palliative care and psychological support.</p>
+<p>Common cancer types, such as breast cancer, cervical cancer, oral cancer, and colorectal cancer, have high cure rates when detected early and treated according to best practices. 
+Other types of cancer types, such as testicular seminoma and different types of leukaemia and lymphoma in children, also have high cure rates if appropriate treatment is provided, even when cancerous cells are present in other areas of the body.</p>
+<h1>Cancer vs. AI</h1>
+<p><img alt="Brain Cancer Chromosomes. Chromosomes prepared from a malignant glioblastoma visualized by spectral karyotyping (SKY) reveal an enormous degree of chromosomal instability: a hallmark of cancer. Created by Thomas Ried, 2014." src="./img/art2/national-cancer-institute-J28Nn-CDbII-unsplash.jpg">
+<em>Brain Cancer Chromosomes. Chromosomes prepared from a malignant glioblastoma visualized by spectral karyotyping (SKY) reveal an enormous degree of chromosomal instability: a hallmark of cancer. Created by Thomas Ried, 2014.</em>
+<em><a href="https://unsplash.com/photos/J28Nn-CDbII?utm_source=unplash&amp;utm_medium=referral&amp;utm_content=creditShareLink">Photo by National Cancer Institute on Unsplash</a></em></p>
+<p>The concepts of AI and ML are sometimes confusing, and the ML models are vast and cover many fields, going out of the scope of this article. To have a deeper understanding of the differences between these terms as well as the development of the ML process, you may visit the article <a href="https://joanamdsantos.github.io/infinityoffinite.github.io/artificial-inteligence.html">“From Big and Weak to Small and Powerful: Artificial Intelligence”</a>, where these concepts are further detailed.</p>
+<p>In a broad view, ML is a subfield of AI, and Deep Learning (DL) is the subset of ML. DL is, in turn, composed of Artificial Neural Networks (ANN) with more than three fully connected hidden layers. 
+ML models use various statistical, probabilistic and optimization techniques based on past examples to detect unexplained patterns from data sets that are large, noisy or complex. It is a technique that is suitable for medical applications, especially when involving genetic data.</p>
+<p>Physicians have generally outperformed traditional models that use just a few predictor variables to predict life expectancy, achieving a 96–98% success rate for diagnosing cancer.</p>
+<p>So, why use ML models to diagnose cancer or predict life expectancy? </p>
+<p>Well, going back a decade, the better designed and validated studies reviewed by Cruz and Wishart (2007) showed “that machine learning methods could be used to substantially (15-25%) improve the accuracy of predicting cancer susceptibility, recurrence and mortality”. 
+Furthermore, it was also helping “to improve our basic understanding of cancer development and progression”.</p>
+<p>ML models have shown to slightly diagnose cancer or survival rates better than physicians and much better than traditional statistical models. They can do it on a fast, massive scale. Moreover, they can also predict cancer.</p>
+<h3>ML models applied in cancer</h3>
+<p>ML applications in cancer detection and diagnosis have been in use for three decades, using ANN and Decision Trees (DT). More recently, these techniques and other models, such as Bayesian Networks (BN) and Support Vector Machines (SVM), have been used to model the progression and treatment of cancerous conditions. </p>
+<p>The importance of the use of ML is the capacity to detect key features from complex datasets. The best-validated studies show that ML methods can be used to considerably (15-25%) increase the accuracy of predicting cancer susceptibility, recurrence and mortality.</p>
+<p>With the power of Convolutional Neural Networks (CNN), DL has been successfully used in computer vision applications, for instance, in face recognition and image classification. The use of DL in automatically and accurately detecting cancer from images such as stained tumour slides or radiology images allows pathologists and radiologists to be liberated from routine and repetitive task. </p>
+<p>According to Bhinder et al. (2021), CNN models can be divided into two approaches: </p>
+<ul>
+<li>Using images from a large collection of natural objects to train the initial layers of the model and further use the disease-specific data to fine-tune the training parameters in the last layers; </li>
+<li>Using an autoencoder where the model learns background features from a subset of representative images and encodes a compressed representation of the basic features later used to initialize the CNN.</li>
+</ul>
+<h3>ML case: Skin Cancer</h3>
+<p>A study by the Stanford Artificial Intelligence Laboratory on skin cancer included the classification of skin lesions using a single CNN, trained end-to-end from images directly. Using only pixels and disease labels as inputs, about 130,000 images of skin lesions were used, representing over 2,000 different diseases. According to Esteva et al. (2017), the performance was tested against 21 board-certified dermatologists with two critical binary classification use cases: keratinocyte carcinomas vs. benign seborrheic keratoses (most common skin cancers); and malignant melanomas vs. benign nevi (deadliest skin cancers). </p>
+<p><img alt="Photo by draxe.com" src="./img/art2/Skincancer_FB.jpg">
+<em>The ABCDE of skin cancer image diagnosis.</em>
+<em>Photo by draxe.com</em></p>
+<p>The results showed the CNN achieved level-performance with all tested experts across both tasks. This study critically proved that artificial intelligence is capable of classifying skin cancer with the same ability as dermatologists. 
+Furthermore, this study also showed that if Deep Neural Networks (DNN) like CNN are used in applications for mobile devices, early detection can be improved for skin cancer, extending the work of dermatologists outside of the clinic. 
+Applications for skin cancer detection in mobile devices have since been developed, namely MoleMapper and SkinVision.</p>
+<p>In a broader view, current AI applications to fight cancer include:</p>
+<ul>
+<li>Detection and classification of cancer;</li>
+<li>Molecular characterization of tumours and their microenvironment;</li>
+<li>Drug discovery and repurposing; and</li>
+<li>Predicting treatment outcomes for patients. </li>
+</ul>
+<p>Bhinder et al. (2021) believe that “as these advances start penetrating the clinic, we foresee a shifting paradigm in cancer care becoming strongly driven by AI.”</p>
+<h1>Barriers</h1>
+<p><img alt="A scientist working in chemical library of Lederle Laboratory where 50,000 chemicals were tested annually for anti-tumor activity (1961)." src="./img/art2/national-cancer-institute-89rul39ox2I-unsplash.jpg">
+<em>A scientist working in the chemical library of Lederle Laboratory where 50,000 chemicals were tested annually for anti-tumor activity (1961)</em>
+<em><a href="https://unsplash.com/photos/89rul39ox2I?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditShareLink">Photo by National Cancer Institute on Unsplash</a></em></p>
+<p>Though the increase of computational technology and digital imaging, there are still foundational barriers to machine learning in cancer research and application and overall in clinical decision support. These limitations and obstacles include:</p>
+<ul>
+<li>Limited data access;</li>
+<li>Low-quality data;</li>
+<li>Poor technology integration;</li>
+<li>Lack of provider education and training; and</li>
+<li>Lack of team specialized professionals</li>
+</ul>
+<p>Tackling these challenges will lead to more informed decision-making and better patient care.
+According to Kent (2020), healthcare and the adoption of AI has met some resistance by providers, “partly due to valid concerns over the ethical implications of using these tools to deliver care.” 
+However, recent studies show that the younger generation is more than 70% confident that digital health technologies can achieve better patient outcomes and believe these tools will improve the patient experience. 
+Moreover, these “providers will likely be well-equipped to understand and apply these tools in regular care delivery”, since "it’s not just computer scientists and data scientists who are interested, but also a lot of our clinical trainees.”</p>
+<p>It is conceivable that machine learning and AI-supported clinical decision tools may well become the healthcare industry’s standard, and healthcare become automated much like other industries have.</p>
+<h1>Closing thoughts</h1>
+<p><img alt="Cancer surgeons" src="./img/art2/national-cancer-institute-701-FJcjLAQ-unsplash.jpg">
+<em>Cancer surgeons.</em>
+<em><a href="https://unsplash.com/photos/701-FJcjLAQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditShareLink">Photo by National Cancer Institute on Unsplash</a></em></p>
+<p>In this post, we looked at machine learning models that are being used to help the medical community and patients in the earlier detection and prognosis of cancer disease. These are the major takeouts about the use of AI in the fight of cancer:</p>
+<ul>
+<li>
+<p>Advances in technology in the last decades have provided the collection and availability of considerable amounts of clinical data on cancer in the medical community. Most of the predictions and screening are made based on medical expertise and statistical modelling.</p>
+</li>
+<li>
+<p>Machine learning has been used in cancer diagnosis, detection, and more recently in prognosis and prediction, as new machine learning models have been developed and computational technology has increased.</p>
+</li>
+<li>
+<p>The importance of the use of ML is the capacity to detect key features from complex datasets. The best-validated studies show that ML methods can be used to considerably (15-25%) increase the accuracy of predicting cancer susceptibility, recurrence and mortality.</p>
+</li>
+<li>
+<p>With the power of Convolutional Neural Networks (CNN), DL has been successfully used in computer vision applications, for instance, in face recognition and image classification. </p>
+</li>
+<li>
+<p>In the case of skin cancer, a documented CNN model achieved level-performance with all tested experts, proving that AI is capable of classifying skin cancer with the same ability as dermatologists. Applications for skin cancer detection in mobile devices have since been developed, namely MoleMapper and SkinVision.</p>
+</li>
+<li>
+<p>The application of AI in cancer research and application is present in all the cycle of the process, from early diagnosis to predicting treatment outcomes for patients.</p>
+</li>
+<li>
+<p>The major barriers are related to the amount and quality of the data, as well as the lack of knowledge and integration of the medical teams in the AI field. 
+Tackling these challenges will lead to more informed decision-making and better patient care.</p>
+</li>
+</ul>
+<p>Specialists in the cancer decision support tools believe it is conceivable that machine learning and AI-supported clinical decision tools may well become the healthcare industry’s standard, and healthcare become automated much like other industries have, in the near future.</p>
+<h1>References</h1>
+<p><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/pmc2675494/">Applications of machine learning in cancer prediction and prognosis</a>, Cruz, J. A., &amp; Wishart, D. S. Cancer informatics, 2, 59–77, 2007</p>
+<p><a href="https://cancerdiscovery.aacrjournals.org/content/11/4/900#sec-20">Artificial Intelligence in Cancer Research and Precision Medicine</a>, Bhinder, B., Gilvary. C., Madhukar, NS and Elemento O., Cancer Discov (11) (4) 900-915, April 1, 2021</p>
+<p><a href="https://doi.org/10.1093/jamia/ocaa290">Automated model versus treating physician for predicting survival time of patients with metastatic cancer</a> Gensheimer, M. F.,  Aggarwal, S., Benson, K.R.K, Carter, J. N., Henry, A.S, Wood et al., J. Am. Med. Inform. Assoc., ocaa290, 2020</p>
+<p><a href="https://www.who.int/news-room/fact-sheets/detail/cancer">Cancer</a> World Health Organization (WHO), March 3, 2021</p>
+<p><a href="https://www.who.int/health-topics/cancer#tab=tab_1">Cancer Overview</a>, World Health Organization (WHO), April 28, 2021</p>
+<p><a href="https://doi.org/10.1038/nature21056">Dermatologist-level classification of skin cancer with deep neural networks</a>, Esteva, A., Kuprel, B., Novoa, R. et al.. Nature 542, 115–118, January 24, 2017 </p>
+<p><a href="https://healthitanalytics.com/features/how-machine-learning-is-transforming-clinical-decision-support-tools">How Machine Learning is Transforming Clinical Decision Support Tools</a>, Kent, J., March 26, 2020</p>
+<p><a href="https://towardsdatascience.com/machine-learning-is-the-future-of-cancer-prediction-e4d28e7e6dfa">Machine Learning Is The Future Of Cancer Prediction</a>, Sohail Sayed, December 8, 2018</p>
+<p><a href="https://molemapper.org/">MoleMapper</a>, https://molemapper.org/, April 28, 2021</p>
+<p><a href="https://gco.iarc.fr/today/data/factsheets/cancers/17-Non-melanoma-skin-cancer-fact-sheet.pdf">Non-melanoma skin cancer</a>, Globoca, International Agency for Research on Cancer – WHO, 2020</p>
+<p><a href="https://www.skinvision.com/">SkinVision</a>, https://www.skinvision.com/, April 28, 2021</p>
+<p><a href="https://doi.org/10.7554/eLife.61082">Supervised mutational signatures for obesity and other tissue-specific etiological factors in cancer</a> Bahman, A., Albert K., YiFan, Z., Lu, L., Kamel, L., Ludmila D. et al., Cancer Biology, eLife 2021;10:e61082, 2021</p>
+<p><em>Thumbnail: Enabling Novel X-ray Sources to Deliver Tumor-Killing Radiation
+<a href="https://unsplash.com/photos/zz_3tCcrk7o?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditShareLink">Photo by National Cancer Institute on Unsplash</a></em></p>
+    </div>
+
+    <footer>
+        <div class="pure-g post-footer">
+        </div>    
+        <div class="tags">
+            <a href="./tag/machine-learning.html">machine learning</a>
+            <a href="./tag/deep-learning.html">deep learning</a>
+            <a href="./tag/health.html">health</a>
+            <a href="./tag/society.html">society</a>
+        </div>
+        <div class="pure-g post-footer">
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pure-g poster-info">
+                    <div class="pure-u">
+                        <a href="./author/joana-martins-dos-santos.html"><img src="https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/pia22569-snr-g54.jpg" alt=""></a>
+                    </div>
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="./author/joana-martins-dos-santos.html">Joana Martins dos Santos</a></h3>
+                        <p class="author-description">
+                          
+        Joana is an environmental engineer with a passion for data science and composing music in this delicate unique world.
+        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pure-u-1 pure-u-md-1-2">
+
+                <div class="pure-g post-category-info">
+                    <div class="pure-u">
+                        <a href="./category/ai.html"><img src="https://images.unsplash.com/photo-1545987796-200677ee1011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt=""></a>
+                    </div>
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="./category/ai.html">AI</a></h3>
+                        <p class="author-description">
+                          “I’m increasingly inclined to think there should be some regulatory oversight, maybe at the national and international level just to make sure that we don’t do something very foolish.” Elon Musk
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+
+    </footer>
+
+   
+
+</div>
+
+
+
+    <footer class="index-footer">
+
+        <a href="./" title="infinityoffinite.github.io">infinityoffinite.github.io</a>
+        <a href="./category/ai.html">AI</a>
+        <a href="./category/one.html">One</a>
+        <div>
+            <a href="© Joana Martins dos Santos 2021| All opinions expressed in this site are my own | @Nasa Images">© Joana Martins dos Santos 2021| All opinions expressed in this site are my own | @Nasa Images</a>
+        </div>
+    </footer>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXXXXXX-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+    
+</html>
